@@ -33,12 +33,12 @@ cc_binary(
     name = "cpp-web-player",
     srcs = ["cpp_web_player.cc"],
     deps = [
-        "//mediapipe/calculators/core:pass_through_calculator",
-        "//mediapipe/framework:calculator_graph",
-        "//mediapipe/framework/port:parse_text_proto",
-        "//mediapipe/framework/port:status",
-        "//third_party:glog",
-        "//mediapipe/framework/port:logging",
+        # "//mediapipe/calculators/core:pass_through_calculator",
+        # "//mediapipe/framework:calculator_graph",
+        # "//mediapipe/framework/port:parse_text_proto",
+        # "//mediapipe/framework/port:status",
+        # "//third_party:glog",
+        # "//mediapipe/framework/port:logging",
     ],
     linkopts = [
         "-s USE_PTHREADS=0",
