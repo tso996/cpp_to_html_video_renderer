@@ -52,6 +52,6 @@ cc_binary(
 
 
 wasm_cc_binary(
-    name = "hello-world-wasm",
-    cc_target = ":hello-world-web",
+    name = "cpp-web-player-wasm",
+    cc_target = ":cpp-web-player",
 )
