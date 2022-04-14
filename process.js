@@ -40,7 +40,7 @@ let looper = async function (fps) {
         // Module.MyClass.getStringFromInstance(instance); // "hello"
         // instance.delete();
   
-        //initialization is over
+        ///initialization is over
         //===========================================
         (function loop() {
           if(starter){
